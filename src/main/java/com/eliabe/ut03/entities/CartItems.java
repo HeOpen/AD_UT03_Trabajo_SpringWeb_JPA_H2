@@ -1,4 +1,4 @@
-package com.eliabe.ut03.olaheliabe.entities;
+package com.eliabe.ut03.entities;
 
 
 import jakarta.persistence.*;

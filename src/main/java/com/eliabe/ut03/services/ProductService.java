@@ -1,6 +1,6 @@
 package com.eliabe.ut03.services;
 
-import com.eliabe.ut03.olaheliabe.entities.Products;
+import com.eliabe.ut03.entities.Products;
 import com.eliabe.ut03.repositories.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

@@ -1,10 +1,12 @@
-package com.eliabe.ut03.olaheliabe.entities;
+package com.eliabe.ut03.entities;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.util.List;
 
 @Entity
 @Table(name="customers")
@@ -31,7 +33,7 @@ public class Customers {
     private String address;
 
     @OneToMany(mappedBy = "customer", cascade = CascadeType.ALL)
-    private List<Whishlists> whishlists;
+    private List<Wishlists> whishlists;
 
     @OneToMany(mappedBy = "customer")
     private List<Orders> orders;

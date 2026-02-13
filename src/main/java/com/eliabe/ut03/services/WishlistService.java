@@ -1,7 +1,7 @@
 package com.eliabe.ut03.services;
 
-import com.eliabe.ut03.olaheliabe.entities.Customers;
-import com.eliabe.ut03.olaheliabe.entities.Wishlists;
+import com.eliabe.ut03.entities.Customers;
+import com.eliabe.ut03.entities.Wishlists;
 import com.eliabe.ut03.repositories.CustomerRepository;
 import com.eliabe.ut03.repositories.WishlistRepository;
 import com.eliabe.ut03.dto.WishlistCreateDTO;

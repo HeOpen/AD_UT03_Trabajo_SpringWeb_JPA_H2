@@ -1,8 +1,8 @@
 package com.eliabe.ut03.controllers;
 
 import com.eliabe.ut03.dto.ShipmentDTO;
-import com.eliabe.ut03.olaheliabe.entities.Orders;
-import com.eliabe.ut03.olaheliabe.entities.Shipments;
+import com.eliabe.ut03.entities.Orders;
+import com.eliabe.ut03.entities.Shipments;
 import com.eliabe.ut03.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

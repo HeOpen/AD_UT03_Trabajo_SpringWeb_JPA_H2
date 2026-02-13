@@ -1,7 +1,7 @@
 package com.eliabe.ut03.controllers;
 
 import com.eliabe.ut03.dto.WishlistCreateDTO;
-import com.eliabe.ut03.olaheliabe.entities.Wishlists;
+import com.eliabe.ut03.entities.Wishlists;
 import com.eliabe.ut03.services.WishlistService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

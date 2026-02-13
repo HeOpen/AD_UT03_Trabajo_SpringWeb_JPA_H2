@@ -1,6 +1,6 @@
 package com.eliabe.ut03.repositories;
 
-import com.eliabe.ut03.olaheliabe.entities.Products;
+import com.eliabe.ut03.entities.Products;
 import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

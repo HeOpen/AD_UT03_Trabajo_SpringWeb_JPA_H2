@@ -2,9 +2,9 @@ package com.eliabe.ut03.services;
 
 import com.eliabe.ut03.dto.CartDTO;
 import com.eliabe.ut03.dto.CartItemDTO;
-import com.eliabe.ut03.olaheliabe.entities.CartItems;
-import com.eliabe.ut03.olaheliabe.entities.Customers;
-import com.eliabe.ut03.olaheliabe.entities.Products;
+import com.eliabe.ut03.entities.CartItems;
+import com.eliabe.ut03.entities.Customers;
+import com.eliabe.ut03.entities.Products;
 import com.eliabe.ut03.repositories.CartItemRepository;
 import com.eliabe.ut03.repositories.CustomerRepository;
 import com.eliabe.ut03.repositories.ProductRepository;

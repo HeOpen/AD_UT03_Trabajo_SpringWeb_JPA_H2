@@ -1,6 +1,6 @@
 package com.eliabe.ut03.services;
 
-import com.eliabe.ut03.olaheliabe.entities.*;
+import com.eliabe.ut03.entities.*;
 import com.eliabe.ut03.repositories.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
