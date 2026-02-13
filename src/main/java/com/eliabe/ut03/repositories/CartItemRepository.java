@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface CardItemRepository extends JpaRepository {
+public interface CartItemRepository extends JpaRepository {
 
     List<CartItems> findByCustomer_CustomerIdOrderByProduct_NameAsc(Integer customerId);
 
