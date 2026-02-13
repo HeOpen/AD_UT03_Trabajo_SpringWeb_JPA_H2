@@ -58,14 +58,11 @@ public class CartService {
     }
 
     public CartDTO getCartDTO(Integer customerId) {
-        // 1. Obtenemos los items de la base de datos [cite: 213]
-        List<CartItems> entities = cartItemRepository.findByCustomer_CustomerIdOrderByProduct_NameAsc(customerId); [cite: 215, 217]
+        List<CartItems> entities = cartItemRepository.findByCustomer_CustomerIdOrderByProduct_NameAsc(customerId);
 
-        // 2. Creamos el DTO de respuesta [cite: 218]
         CartDTO cartDTO = new CartDTO();
         Double total = 0.0;
 
-        // 3. Transformamos cada entidad y calculamos subtotales
         List<CartItemDTO> itemsDTO = entities.stream().map(entity -> {
             CartItemDTO itemDTO = new CartItemDTO();
             itemDTO.setProductName(entity.getProduct().getName());
@@ -78,7 +75,6 @@ public class CartService {
             return itemDTO;
         }).toList();
 
-        // 4. Calculamos el total general
         total = itemsDTO.stream().mapToDouble(CartItemDTO::getSubtotal).sum();
 
         cartDTO.setItems(itemsDTO);
