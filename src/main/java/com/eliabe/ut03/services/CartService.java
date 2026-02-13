@@ -1,4 +1,4 @@
-package com.eliabe.ut03.olaheliabe.services;
+package com.eliabe.ut03.services;
 
 import com.eliabe.ut03.dto.CartDTO;
 import com.eliabe.ut03.dto.CartItemDTO;
